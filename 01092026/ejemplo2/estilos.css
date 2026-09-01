@@ -1,0 +1,9 @@
+/*CONFIGURACION GENERAL DE ESTULOS CSS Y FORMATEO DE PAGINA */
+/* Eliminar todos los margenes y paddings por defecto de todos los elementos*/
+body{
+    margin: 0;
+    padding: 20px;
+    /*Configuracion del epacio al borde del navegador*/
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+}
