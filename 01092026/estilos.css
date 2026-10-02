@@ -1,0 +1,38 @@
+p {
+    color: rgb(128, 128, 162);
+    font-size:18px;
+}
+
+.parrafo1{
+    color: rgb(119, 78, 78);
+    background-color: aquamarine;
+}
+
+.parrafo2{
+    color:aliceblue;
+    background-color: rgb(146, 119, 170);
+    font-size: 30px;
+
+            /*Ajustes del navegador*/
+}
+
+.container{
+    width: 100%;
+}
+ 
+        /*HEADER*/
+.header{
+    background: 212453;
+    Color: aqua;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    background-color: #c77766aa;
+    padding: 10px, 15px;
+    border-radius: 10px;
+    
+}

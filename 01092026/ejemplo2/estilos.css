@@ -1,0 +1,109 @@
+/*CONFIGURACION GENERAL DE ESTULOS CSS Y FORMATEO DE PAGINA */
+/* Eliminar todos los margenes y paddings por defecto de todos los elementos*/
+body{
+    margin: 0;
+    padding: 20px;
+    /*Configuracion del epacio al borde del navegador*/
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+}
+.container{
+    width: 100%;
+}
+ 
+        /*HEADER*/
+.header{
+    background: 212453;
+    Color: rgb(231, 221, 237);
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    background-color: #f6f4f4aa;
+    padding: 10px, 15px;
+    border-radius: 10px;
+    
+}
+
+.nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    }
+.nav{
+    text-decoration: none;
+    color: rgba(51,48,48,0.564);
+    font-weight: bold;
+}
+.nav a:hover{
+    color: aquamarine;
+
+}
+
+/*Principal*/
+.layout{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+/*MAIN*/
+main{
+    background-color: #384043;
+    padding: 20px;
+    border-radius: 15px;
+
+}
+
+article{
+    background-color: #c6c4b8;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+section{
+    background-color: #8e8a77;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+/*FOOTER*/
+.main-footer{
+    background-color: #ab6060ce;
+    color: rgb(231, 221, 237);
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+aside{
+    background-color: #576259;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+aside section{
+    background-color: #918092;
+    margin-bottom: 10px;
+    
+}
+
+/*Footer de forma general*/
+.page-footer{
+    background-color: #456244ce;
+    margin-top: 35px;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+    
+}
